@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.container_small {
+    width: 100%;
+    max-width: 800px;
+}
+
 /* Phone */
 .call {
     text-align: center;
@@ -60,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav_item a {
-    color: #fff;
+    color: #808080;
     text-transform: uppercase;
     text-decoration: none;
     transition: color .2s linear;
@@ -102,3 +107,37 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 100%;
     object-fit: none;
 }
+
+/* Footer */
+.footer {
+    margin: 50px 0 20px 0;
+    }
+    
+.footer_social {
+    display: flex;
+    justify-content: center;
+    }
+    
+.footer_social_icon {
+    font-size: 43px;
+    margin: 0 25px;
+    }
+    
+.tel, .wa{
+    color: #43d854;
+    }
+    
+.tg {
+    color: #0088cc;
+    }
+    
+/* Copyright */
+.copyright {
+    background-color: #5b5858;
+    padding: 10px 0;
+    }
+    
+.copyright .container {
+    text-align: center;
+    color: #fff;
+    }
