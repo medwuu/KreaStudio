@@ -1,1 +1,40 @@
+/* font-family: 'Amatic SC', cursive;      400, 700      title
+   font-family: 'Jost', sans-serif;        400           nav also
+   font-family: 'Poiret One', cursive;     400           text */
 
+body {
+    margin: 0;
+    padding: 0;
+    color: #808080;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Poiret One', cursive;
+    background-color: #f5f5f5;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section */
+.section {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.section_title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
