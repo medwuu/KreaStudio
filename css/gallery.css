@@ -26,6 +26,51 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+/* Phone */
+.call {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.phone a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 5px 15px;
+    transition: background-color 0.3s linear;
+}
+
+.phone a:hover {
+    background-color: #f5f5f5;
+}
+
+.phone_number {
+    text-decoration: underline;
+}
+
+/* Navigation */
+.nav {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_item a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .2s linear;
+    font-family: 'Jost', sans-serif;
+}
+
+.nav_item_active a, .nav_item a:hover {
+    color: #ffdd00;
+}
+
 /* Section */
 .section {
     text-align: center;
