@@ -89,6 +89,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }
 
+/* Buttons */
+.gallery_buttons .container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_btn_item {
+    margin: 0 15px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background-color: #fff;
+    transition: background-color 0.3s linear;
+}
+
+.gallery_btn_item:hover {
+    background-color: #ffdd00;
+}
+
+.gallery_btn {
+    color: #000;
+}
+
 /* Gallery */
 .gallery_row {
     display: flex;
