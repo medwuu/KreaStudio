@@ -98,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery_item {
     margin: 10px;
     overflow: hidden;
+    width: 33.3333%;
 }
 
 .gallery_item img {
