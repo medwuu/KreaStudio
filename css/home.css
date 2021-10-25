@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Amatic SC', cursive;
 }
 
-.header_btn {
+.header_btn a {
     color: #000;
     background-color: #ffdd00;
     text-decoration: none;
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color, padding, font-size .3s linear;
 }
 
-.header_btn:hover {
+.header_btn a:hover {
     background-color: #d3bc26;
     padding: 10px 22px;
     font-size: 17px;
