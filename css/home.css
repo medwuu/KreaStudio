@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
-.nav_item a {
+.nav_btn {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Jost', sans-serif;
 }
 
-.nav_item_active a, .nav_item a:hover {
+.nav_btn_active , .nav_btn a:hover {
     color: #ffdd00;
 }
 
