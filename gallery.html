@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KreaStudio - монтаж фото и видео">
+    <meta name="keywords" content="KreaStudio, Krea Studio, фото, видео, монтаж, сервис, быстро, недорого, качественно">
+    <meta name="Copyright" content="KreaStudio">
     <link rel="stylesheet" href="css/gallery.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,57 +63,76 @@
     <!-- Galley buttons -->
     <div class="gallery_buttons">
         <div class="container">
-            <div class="gallery_btn_item">
-                <button class="gallery_btn btn_active">Все</button>
-            </div>
-            <div class="gallery_btn_item">
-                <button class="gallery_btn">Свадьбы</button>
-            </div>
-            <div class="gallery_btn_item">
-                <button class="gallery_btn">Дети</button>
-            </div>
-            <div class="gallery_btn_item">
-                <button class="gallery_btn">Семейное</button>
-            </div>
-            <div class="gallery_btn_item">
-                <button class="gallery_btn">Девушки</button>
+                <button class="gallery_btn btn_all" data-filter="all">Все</button>
+                <button class="gallery_btn btn_wedding" data-filter="wedding">Свадьбы</button>
+                <button class="gallery_btn btn_childrens" data-filter="childrens">Дети</button>
+                <button class="gallery_btn btn_family" data-filter="family">Семейное</button>
+                <button class="gallery_btn btn_woman" data-filter="woman">Девушки</button>
             </div>
         </div>
     </div>
     <!-- Gallery -->
     <div class="gallery">
         <div class="container">
-            <div class="gallery_row">
-                <div class="gallery_item">
-                    <img class="childrens active" src="img/childrens-1.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item childrens">
+                    <a href="img/childrens-1.jpeg" target="_blank">
+                        <img src="img/childrens-1.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-                <div class="gallery_item">
-                    <img class="wedding active" src="img/wedding-1.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item wedding">
+                    <a href="img/wedding-1.jpeg" target="_blank">
+                        <img src="img/wedding-1.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-                <div class="gallery_item">
-                    <img class="wedding active" src="img/wedding-2.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item woman">
+                    <a href="img/woman-2.jpg" target="_blank">
+                        <img src="img/woman-2.jpg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-            </div>
-            <div class="gallery_row">
-                <div class="gallery_item">
-                    <img class="family active" src="img/family-1.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item wedding">
+                    <a href="img/wedding-2.jpeg" target="_blank">
+                        <img src="img/wedding-2.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-                <div class="gallery_item">
-                    <img class="family active" src="img/family-2.webp" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item family">
+                    <a href="img/family-1.jpeg" target="_blank">
+                        <img src="img/family-1.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-                <div class="gallery_item">
-                    <img class="childrens active" src="img/childrens-2.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item family">
+                    <a href="img/family-2.webp" target="_blank">
+                        <img src="img/family-2.webp" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-            </div>
-            <div class="gallery_row">
-                <div class="gallery_item">
-                    <img class="childrens active" src="img/childrens-4.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item childrens">
+                    <a href="img/childrens-2.jpeg" target="_blank">
+                        <img src="img/childrens-2.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-                <div class="gallery_item">
-                    <img class="family active" src="img/family-3.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item woman">
+                    <a href="img/woman-3.jpg" target="_blank">
+                        <img src="img/woman-3.jpg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
-                <div class="gallery_item">
-                    <img class="childrens active" src="img/childrens-3.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                <div class="gallery_item childrens">
+                    <a href="img/childrens-4.jpeg" target="_blank">
+                        <img src="img/childrens-4.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
+                </div>
+                <div class="gallery_item woman">
+                    <a href="img/woman-1.jpg" target="_blank">
+                        <img src="img/woman-1.jpg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
+                </div>
+                <div class="gallery_item family">
+                    <a href="img/family-3.jpeg" target="_blank">
+                        <img src="img/family-3.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
+                </div>
+                <div class="gallery_item childrens">
+                    <a href="img/childrens-3.jpeg" target="_blank">
+                        <img src="img/childrens-3.jpeg" alt="Подождите загрузки картинки, или перезагрузите страницу">
+                    </a>
                 </div>
             </div>
         </div>
@@ -145,5 +167,6 @@
             ©Krea Studio, Все права защищены. 2021
         </div>
     </div>
+    <script src="js/filter.js"></script>
 </body>
 </html>
