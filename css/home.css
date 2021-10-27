@@ -59,7 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header */
 .header {
-    background: red;
+    background: url(../img/header-photo.jpg) center no-repeat;
+    background-size: cover;
     height: 85vh;
 }
 
