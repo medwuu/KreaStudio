@@ -6,16 +6,10 @@ function scrollTo(element) {
     })
 }
 
-var advantagesBtn = document.querySelector('#advantages_btn');
-var advantages = document.querySelector('#advantages');
 var aboutBtn = document.querySelector('#about_btn');
 var about = document.querySelector('#about');
 var contactsBtn = document.querySelector('#contacts_btn');
 var contacts = document.querySelector('#contacts');
-
-advantagesBtn.addEventListener('click', () => {
-    scrollTo(advantages);
-})
 
 aboutBtn.addEventListener('click', () => {
     scrollTo(about);

@@ -31,32 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 800px;
 }
 
-/* Phone */
-.call {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.phone a {
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    border: 2px solid transparent;
-    border-radius: 15px;
-    padding: 5px 15px;
-    transition: background-color 0.3s linear;
-}
-
-.phone a:hover {
-    background-color: #f5f5f5;
-}
-
-.phone_number {
-    text-decoration: underline;
-}
-
 /* Navigation */
 .nav {
     padding: 30px 0;
@@ -64,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
-.nav_item a {
+.nav_item, .nav_item a {
     color: #808080;
     text-transform: uppercase;
     text-decoration: none;
@@ -119,16 +93,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Gallery */
+.gallery {
+    margin-bottom: 50px;
+}
+
 .gallery .container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .gallery_item {
-    margin: 10px;
+    margin: 15px 10px;
     overflow: hidden;
     width: calc(33.33333% - 20px);
     transition: all 0.5s linear;
+}
+
+.gallery_name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .gallery_item img {
@@ -148,22 +132,112 @@ h1, h2, h3, h4, h5, h6 {
     margin: 50px 0 20px 0;
 }
 
+.footer_bio {
+    display: flex;
+    align-items: center;
+}
+
+.footer_bio_img {
+    width: 25%;
+}
+
+.footer_bio_img img {
+    width: 60%;
+    border-radius: 999px;
+}
+
+.footer_bio_text {
+    width: 75%;
+}
+
+.footer_bio_text:before, .footer_bio_text:after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #3366ff;
+    margin: 0 auto;
+}
+
 .footer_social {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.social_item {
+    text-align: center;
+}
+
+.social_icon {
+    font-size: 48px;
+}
+
+.social_name a {
+    border-radius: 999px;
+    border: 1px transparent solid;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.whatsapp, .whatsapp_name a {
+    color: #43d854;
+    transition: color .3s linear;
+}
+
+.whatsapp_name a:hover {
+    color: #fff;
+    background-color: #43d854;
+}
+
+.telegram, .telegram_name a {
+    color: #27aade;
+    background-color: #e5f6ff;
+    transition: color, background-color .3s linear;
+}
+
+.telegram_name a:hover {
+    color: #fff;
+    background-color: #27aade;
+}
+
+.viber, .viber_name a {
+    color: #7f4da0;
+    background-color: #f9f0ff;
+    transition: color, background-color .3s linear;
+}
+
+.viber_name a:hover {
+    color: #fff;
+    background-color: #7f4da0;
+}
+
+.facebook, .facebook_name a {
+    color: #007fff;
+    background-color: #ebf5ff;
+    transition: color, background-color .3s linear;
+}
+
+.facebook_name a:hover {
+    color: #fff;
+    background-color: #007fff;
+}
+
+.footer_contacts {
     display: flex;
     justify-content: center;
 }
 
-.footer_social_icon {
-    font-size: 43px;
-    margin: 0 25px;
+.footer_contact_item {
+    margin: 20px 50px 10px;
 }
 
-.tel, .wa{
-    color: #43d854;
-}
-
-.tg {
-    color: #0088cc;
+.footer_contact_item a {
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-weight: 700;
 }
 
 /* Copyright */
@@ -200,6 +274,25 @@ h1, h2, h3, h4, h5, h6 {
     .gallery_btn {
         margin: 0 10px;
     }
+
+    /* Footer */
+    .footer_social {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    /* Gallery Buttons */
+    .gallery_btn {
+        margin: 0 1px;
+        padding: 5px;
+    }
+
+    /* Footer */
+    .footer_contacts {
+        display: block;
+        text-align: center;
+    }
 }
 
 @media (max-width: 420px) {
@@ -211,18 +304,5 @@ h1, h2, h3, h4, h5, h6 {
     /* Gallery */
     .gallery_item {
         width: 100%;
-    }
-}
-
-@media (max-width: 450px) {
-    /* Phone */
-    .phone a {
-        padding: 5px;
-    }
-
-    /* Gallery Buttons */
-    .gallery_btn {
-        margin: 0 1px;
-        padding: 5px;
     }
 }
